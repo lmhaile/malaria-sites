@@ -7,3 +7,7 @@ prepare_cases_deaths<- function(iso3c, gadm){
   return(cases_deaths)
   
 }
+
+
+
+prepare_cases_deaths()
