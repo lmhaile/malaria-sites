@@ -12,7 +12,7 @@ orderly2::orderly_dependency("sites",
 source('get_pyrethroid_resistance.R')
 
 
-sites<- readRDS('sites.rds')
+readRDS('sites.RDS')
 
 pyrethroid_resistance <- get_pyrethroid_resistance(sites)
 

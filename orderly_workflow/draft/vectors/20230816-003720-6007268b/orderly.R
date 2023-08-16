@@ -19,8 +19,6 @@ pop_raster <- rast(list.files("M:/Pete/malaria_sites/data/raster/",
 
 gadm<- readRDS('gadm.rds')
 gadm_df<- readRDS('gadm_df.rds')
-source('get_vectors_africa.R')
-source('get_vectors_not_africa.R')
 
 packages <- c("terra", "sf", "dplyr", "tidyr", "countrycode", "purrr",
               "peeps", "netz", "umbrella", "ggplot2", "patchwork", "lubridate")

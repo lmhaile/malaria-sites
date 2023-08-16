@@ -1,4 +1,4 @@
-get_pyrethroid_resistance <- function(sites, pyrethroid_resistance_address = "pyrethroid_resistance.csv"){
+get_pyrethroid_resistance <- function(sites, pyrethroid_resistance_address = "data/pyrethroid_resistance.csv"){
   pr <- read.csv(pyrethroid_resistance_address)
   
   pyrethroid_resistance <- sites |>

@@ -6,7 +6,7 @@
 #' @param binomics_address address of vector bionomics data
 get_vectors_not_africa <- function(pop_raster,
                                    gadm,
-                                   binomics_address = "vector_bionomics.csv"){
+                                   binomics_address = "data/vector_bionomics.csv"){
   vb <- read.csv(binomics_address)
   ra <- list.files("M:/Pete/malaria_sites/data/raster/", pattern = "occurence_", full.names = TRUE)
   ra_names <- list.files("M:/Pete/malaria_sites/data/raster/", pattern = "occurence_") |>
